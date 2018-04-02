@@ -2,7 +2,7 @@
 
 namespace LibraryForLoadAssembly
 {
-    public abstract class Car
+    public abstract class Car: ICar
     {
         protected string nameOfDriver;
         protected short currentSpeed;
